@@ -1,6 +1,6 @@
 body {
   background-image: url(../images/bg-header-desktop.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 1440px;
   margin:0px ;
@@ -107,11 +107,11 @@ button:hover{
   margin: 100px auto;
 }
 .last{
-  width: 1440PX;
    height: 150px;
-    opacity: 70%;
     display:flex;
     background-color:hsl(204, 14%, 93%);
+    margin-left: 0px;
+
 }
 .bar_div{
   padding-top:30px;

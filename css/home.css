@@ -2,11 +2,10 @@ body {
   background-image: url(../images/bg-header-desktop.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1440px;
   margin:0px ;
-  margin-right: 0px;
+ 
+
   
-  /* margin: auto; */
 }
 .first {
   text-align: center;
@@ -107,14 +106,14 @@ button:hover{
   margin: 100px auto;
 }
 .last{
-   height: 150px;
+   height: 100px;
     display:flex;
     background-color:hsl(204, 14%, 93%);
     margin-left: 0px;
 
 }
 .bar_div{
-  padding-top:30px;
+  padding-top:15px;
 }
 .bar_p{
   width:100px;
@@ -129,9 +128,22 @@ button:hover{
   width:50px;
   padding-right: 100px;
   margin-left: 200px;
-  margin-top:50px;
+  margin-top:25px;
   color:hsl(171, 66%, 44%);
 }
+.div_icons{
+  display: flex;
+  margin: auto 200px auto 300px;
+}
+.icons{
+  margin: auto 10px auto 10px;
+  font-size: x-large;
+}
+.icons:hover{
+  color:hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
 
 
 

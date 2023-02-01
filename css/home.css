@@ -159,17 +159,10 @@ button:hover{
 }
 
 
-
-
-
-
-
-@media(max-width:400px){
+@media(max-width:380px){
   body{
-    background-image: url(../images/bg-header-mobile.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:0px ;
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: contain;
   }
   .first {
     text-align: center;
@@ -286,6 +279,7 @@ button:hover{
     text-align: center;
     margin: auto;
     padding-bottom: 50px;
+    margin-left: 90px;
   }
   .sixth{
     width: auto;
@@ -295,6 +289,7 @@ button:hover{
     margin:auto;
     margin-top:60px;
     margin-bottom: 100px;
+    margin-left: 60px;
     text-align: center;
   }
   .sivth{
@@ -306,13 +301,48 @@ button:hover{
     text-align: center;
   }
   .logo{
+    margin: 10px 15px;
     padding-bottom: 80px;
   }
   .eighth{
     width: 300px ;
     text-align: center;
-    margin: 100px auto;
+    margin: 100px 70px;
   }
+  .last{
+    width: 380px;
+    height: 350px;
+    display:flex;
+    flex-direction: column;
+    background-color:hsl(204, 14%, 93%);
+ }
+ .bar_p{
+  line-height: 20px;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  padding: 0px 0px 15px 0px ;
+ }
+ .bar_img{
+  width:50px;
+  margin: auto 0px auto 170px;
+  margin-top:25px;
+  color:hsl(171, 66%, 44%);
+}
+
+ .div_icons{
+  display: flex;
+  margin: auto ;
+}
+.icons{
+  margin: auto 10px auto 10px;
+  font-size: x-large;
+}
+.icons:hover{
+  color:hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
 
 }
 
